@@ -65,8 +65,12 @@
 .slider .dots li.active{
     width: 10px;
 }
-@media screen and (max-width: 768px){
-    .slider{
-        height: 700px;
+@media screen and (max-width: auto){
+      .slider{
+        height: auto;
+    }
+    .slider .list img{
+        height: auto;
+        width: auto;
     }
 }
